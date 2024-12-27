@@ -85,7 +85,7 @@ RegisterNumber:24900560
 
 
 i)FULL ADDER
-
+~~~
 module fa(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
@@ -101,7 +101,7 @@ output difference,borrow;
 assign difference= ( (a ^ b)^bin);
 assign borrow= ( ( ~a & b)| ( bin & (~(a ^ b ))));
 endmodule
-
+~~~
 **RTL:**
 
 **FULL ADDER**
